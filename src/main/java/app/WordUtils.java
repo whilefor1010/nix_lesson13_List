@@ -28,7 +28,7 @@ public class WordUtils {
 
     }
 
-    public static Map getCountWords(String text){
+    public static Map<String,Integer> getCountWords(String text){
 
         HashMap<String,Integer> map = new HashMap<>();
 
